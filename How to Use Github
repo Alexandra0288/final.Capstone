@@ -1,0 +1,10 @@
+You can use the GitHub Desktop client locally without connecting to a remote repository.
+With the GitHub Desktop app, it is extremely simple to initialize a repository, stage files, and issue commit
+Step 1: Login
+Feed the GitHub credentials
+If you do not have a GitHub account, you can signup for one at http://github.com
+Step 2: Configure
+You will be prompted to enter the Full name and the mail id.
+The commits proceeded with the current account will be associated with the name and mail id given.
+Step 3: Repositories
+Specify the name and visibility of repository; once the repository is created, click on ‘Set up in Desktop’ which will launch the application.
