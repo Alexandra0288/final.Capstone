@@ -1,0 +1,31 @@
+Step 1: Navigate to the download page of official git website https://git-scm.com/downloads and download Git client for windows.
+Step 2: By running the installer file, the wizard will progress with the usual following steps :
+•	Welcome screen
+•	License agreement
+•	Installation folder
+•	Choose the components to be installed.
+•	Start menu configuration
+along with these, wizards proceeds further with configuration specifics, which will be explained in the consequent steps.
+Step 3: Adding the PATH environment
+By default, the installer will choose ‘Use Github from Github Bash Only’.
+‘Use Github from the Windows Command Prompt’ will prevent the user from using Unix commands and allows you to run with windows prompt.
+‘Use Github and optional UNIX tools from the windows command prompt’ enables usage of Github from Windows prompt also aided with few UNIX commands
+Step 4: Configuring the line ending conversions
+In this step, we specify how GitHub should treat line feed because deducing new lines varies with different operating system.
+Windows and MacOS utilizes \r\n whereas Linux uses just \n. They are represented in general as CRLF(Carriage Return Line Feed) and LF(Line Feed) respectively.
+For now, we will move with the first option.
+Step 5: Configure the terminal emulator to use with Git Bash.
+we have two options :
+– Use MinTTY
+– Use default cmd.exe of Windows OS.
+If you are comfortable with the Linux command line, the former option is recommended, otherwise opt for the second. As the wizard explains, the console window has few limitations such as fixed windows width, the scroll-back is limited and displays only up till certain range for navigating through command history and explicit configuration is required to use Non-ASCII Character, whereas MinTTY doesn’t hold any such restraints.
+Step 6: Configuring extra options.
+This step includes two options :
+•	File system caching
+•	Git credential manager
+Step 6.1)
+File System Caching: Enabling caching will improve application performance
+Step 6.2)
+Git credential manager: The function of GCM is to store credentials in the Windows Credentials Manager to avoid repeated authorizations and validations
+As the installation gets completed, click Finish to exit the setup.
+After being set up, we need to test it to make sure the software has been installed and can run Github well. 
